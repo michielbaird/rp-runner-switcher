@@ -1,6 +1,6 @@
 # rp-runner-switcher
 
-> A smart Cargo runner for RP2040 and RP2350 boards — auto-selects between `probe-rs` and `elf2uf2-rs` so you don’t have to.
+> A Cargo runner for RP2040 and RP2350 boards — auto-selects between `probe-rs` and `elf2uf2-rs` so you don’t have to.
 
 ## ✨ Features
 
