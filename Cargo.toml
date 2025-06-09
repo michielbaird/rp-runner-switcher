@@ -9,7 +9,6 @@ keywords = ["rp", "pico", "rp2040", "rp2350", "runner", "embassy"]
 categories = ["embedded", "command-line-utilities"]
 license = "MIT OR Apache-2.0"
 exclude = [".github/"]
-publish = ["rp-runner-switcher"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
