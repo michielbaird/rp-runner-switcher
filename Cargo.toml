@@ -2,6 +2,15 @@
 name = "rp-runner-switcher"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/michielbaird/rp-runner-switcher"
+description = "Dynamic runner switcher for rp pico"
+readme = "README.md"
+keywords = ["rp", "pico", "rp2040", "rp2350", "runner", "embassy"]
+categories = ["embedded", "command-line-utilities"]
+license = "MIT OR Apache-2.0"
+exclude = [".github/"]
+publish = ["rp-runner-switcher"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
+
