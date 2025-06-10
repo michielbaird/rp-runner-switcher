@@ -1,0 +1,19 @@
+[build]
+# Default target if no override
+target = "thumbv6m-none-eabi"
+
+
+[target.thumbv6m-none-eabi]
+runner = "rp-runner-switcher --chip rp2040"
+
+[target.thumbv8m.main-none-eabihf]
+runner = "rp-runner-switcher --chip rp2350a"
+
+[env]
+DEFMT_LOG = "debug"
+
+[alias]
+run-rp2040 = "run --release --features rp2040 --target thumbv6m-none-eabi"
+run-rp2350 = "run --release --features rp2350 --target thumbv8m.main-none-eabihf"
+build-rp2040 = "build --release --features rp2040 --target thumbv6m-none-eabi"
+build-rp2350 = "build --release --features rp2350 --target thumbv8m.main-none-eabihf"
