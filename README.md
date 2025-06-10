@@ -78,3 +78,7 @@ if target == "thumbv6m-none-eabi" {
 This ensures the correct link-rp.x file is used when linking your binary. Some HALs require this explicitly instead of relying on memory.x.
 
 Make sure link-rp.x is included in your project and correctly describes the RP2040 memory layout.
+
+## Example
+
+For a project setupe example. See a blinky example: https://github.com/michielbaird/rp-runner-switcher/tree/main/examples/blinky_embassy
