@@ -12,7 +12,7 @@ enum Chip {
 struct Args {
     #[arg(long, value_enum)]
     chip: Chip,
-        
+
     /// ELF binary produced by cargo
     elf_path: String,
 
