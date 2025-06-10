@@ -81,4 +81,4 @@ Make sure link-rp.x is included in your project and correctly describes the RP20
 
 ## Example
 
-For a project setupe example. See a blinky example: https://github.com/michielbaird/rp-runner-switcher/tree/main/examples/blinky_embassy
+For a project setup example. See blinky: https://github.com/michielbaird/rp-runner-switcher/tree/main/examples/blinky_embassy
